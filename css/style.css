@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #7d97ad;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+hr {
+    height: 2px;
+    background-color: #333;
+}
+
+img {
+    border: 2px;
+    border-color: #333;
+    border-style: solid;
+}
+
+a {
+    margin: 0 0 10px;
+}
+
+/* Media Quiries for portfolio aka Break points */
+
+@media screen and (max-width: 991px) {
+    .description {
+        text-align: left;
+        margin-left: auto;
+    }
+
+    .title-super {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 707px) {
+    .title-super {
+        font-size: 34px;
+    }
+}
