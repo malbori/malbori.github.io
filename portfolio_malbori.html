@@ -11,14 +11,12 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
 
-        <script type="text/javascript" src="js/jquery-3.1.1.slim.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
 
     <body>
         <div class="container">
             <!-- Header of portfolio containing photo and name -->
-            <div class="row">
+            <header class="row">
                 <div class="col-md-6 col-sm-6 col-xs-6">
                     <img class="title-logo" src="img/professional_photo.jpg"
                          alt="Professional Picture">
@@ -31,60 +29,61 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <hr>
                 </div>
-            </div>
+            </header>
             <!-- Big dividing picture -->
-            <div class="row">
+            <section class="row">
                 <div class="col-md-12">
-                    <img class="img-responsive" src="http://placehold.it/1200x480">
+                    <img class="img-responsive" src="http://placehold.it/1200x480"
+                         alt="Placeholder image.">
                 </div>
-            </div>
+            </section>
 
             <!-- Feature work headline -->
-            <div class="row">
+            <section class="row">
                 <div class="col-md-12">
                     <h2 class="text-muted">Featured Work</h2>
                 </div>
-            </div>
+            </section>
 
             <!-- Featured work images with appropriate model functionality -->
-            <div class="row text-center">
+            <section class="row text-center">
                 <!-- Project 1 -->
-                <div class="col-md-4">
+                <article class="col-md-4">
                     <picture>
-                        <source srcset="img/movie_trailer_site.png">
+                        <source srcset="img/movie_trailer_site.png" alt="Movie trailer site image.">
                         <img class="img-responsive" src="http://placehold.it/360x300"
-                             data-toggle="modal" data-target="#project1">
+                             data-toggle="modal" data-target="#project1" alt="Placeholder image.">
                     </picture>
                     <h3 class="text-uppercase description">Movie Trailer Site</h3>
                     <a href="https://github.com/malbori/Project-Movie-Trailer-Website">
                         <p class="description">View Github</p>
                     </a>
-                </div>
+                </article>
                 <!-- Project 2 -->
-                <div class="col-md-4">
+                <article class="col-md-4">
                     <picture>
                         <!-- <source srcset="img/..."> -->
                         <img class="img-responsive" src="http://placehold.it/360x300"
-                             data-toggle="modal" data-target="#project2">
+                             data-toggle="modal" data-target="#project2" alt="Placeholder image.">
                     </picture>
                     <h3 class="text-uppercase description">Appify</h3>
                     <a href="">
                         <p class="description">View Github</p>
                     </a>
-                </div>
+                </article>
                 <!-- Project 3 -->
-                <div class="col-md-4">
+                <article class="col-md-4">
                     <picture>
                         <!--<source srcset="img/..."> -->
                         <img class="img-responsive" src="http://placehold.it/360x300"
-                             data-toggle="modal" data-target="#project3">
+                             data-toggle="modal" data-target="#project3" alt="Placeholder image.">
                     </picture>
                     <h3 class="text-uppercase description">Appify</h3>
                     <a href="">
                         <p class="description">View Github</p>
                     </a>
-                </div>
-            </div>
+                </article>
+            </section>
         </div>
 
         <!-- Modal HTML code  ////////////////////////////////////////////// -->
@@ -95,12 +94,13 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Movie Trailer Site</h4>
+                        <h4 class="modal-title" id="myModalLabel1">Movie Trailer Site</h4>
                     </div>
                     <div class="modal-body">
                         <picture>
-                            <source srcset="img/movie_trailer_site.png">
-                            <img class="img-responsive" src="http://placehold.it/360x300">
+                            <source srcset="img/movie_trailer_site.png" alt="Movie site image.">
+                            <img class="img-responsive" src="http://placehold.it/360x300"
+                                 alt="Placeholder image.">
                         </picture>
                         <p>Wrote server-side code to store a list of
                             some of my favorite movies, including box art imagery and
@@ -123,10 +123,11 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                        <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://placehold.it/360x300">
+                        <img class="img-responsive" src="http://placehold.it/360x300"
+                             alt="Placeholder image.">
                         This was my first project in this class. I learned a lot about HTML and CSS.
                     </div>
                     <div class="modal-footer">
@@ -143,10 +144,11 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                        <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://placehold.it/360x300">
+                        <img class="img-responsive" src="http://placehold.it/360x300"
+                             alt="Placeholder image.">
                         This was my first project in this class. I learned a lot about HTML and CSS.
                     </div>
                     <div class="modal-footer">
@@ -158,4 +160,7 @@
         </div>
 
     </body>
+
+    <script type="text/javascript" src="js/jquery-3.1.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </html>
