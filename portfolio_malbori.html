@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Portfolio_Bootstrap</title>
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript" src="js/jquery-3.1.1.slim.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- Header of portfolio containing photo and name -->
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <img class="title-logo" src="img/professional_photo.jpg"
+                         alt="Professional Picture">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Mahdi Al Bori</h1>
+                    <h4>Full Stack Ninja</h4>
+                </div>
+                <!-- Adding horizontal rule -->
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <hr>
+                </div>
+            </div>
+            <!-- Big dividing picture -->
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="http://placehold.it/1200x480">
+                </div>
+            </div>
+
+            <!-- Feature work headline -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </div>
+
+            <!-- Featured work images with appropriate model functionality -->
+            <div class="row text-center">
+                <!-- Project 1 -->
+                <div class="col-md-4">
+                    <picture>
+                        <source srcset="img/movie_trailer_site.png">
+                        <img class="img-responsive" src="http://placehold.it/360x300"
+                             data-toggle="modal" data-target="#project1">
+                    </picture>
+                    <h3 class="text-uppercase description">Movie Trailer Site</h3>
+                    <a href="https://github.com/malbori/Project-Movie-Trailer-Website">
+                        <p class="description">View Github</p>
+                    </a>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <picture>
+                        <!-- <source srcset="img/..."> -->
+                        <img class="img-responsive" src="http://placehold.it/360x300"
+                             data-toggle="modal" data-target="#project2">
+                    </picture>
+                    <h3 class="text-uppercase description">Appify</h3>
+                    <a href="">
+                        <p class="description">View Github</p>
+                    </a>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-4">
+                    <picture>
+                        <!--<source srcset="img/..."> -->
+                        <img class="img-responsive" src="http://placehold.it/360x300"
+                             data-toggle="modal" data-target="#project3">
+                    </picture>
+                    <h3 class="text-uppercase description">Appify</h3>
+                    <a href="">
+                        <p class="description">View Github</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal HTML code  ////////////////////////////////////////////// -->
+
+        <!-- Modal 1-->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog"
+             aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Movie Trailer Site</h4>
+                    </div>
+                    <div class="modal-body">
+                        <picture>
+                            <source srcset="img/movie_trailer_site.png">
+                            <img class="img-responsive" src="http://placehold.it/360x300">
+                        </picture>
+                        <p>Wrote server-side code to store a list of
+                            some of my favorite movies, including box art imagery and
+                            a movie trailer URL. The code serves this data
+                            as a web page allowing visitors to review the
+                            movies and watch the trailers.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default"
+                                data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 2-->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog"
+             aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://placehold.it/360x300">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default"
+                                data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3-->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog"
+             aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://placehold.it/360x300">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default"
+                                data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
