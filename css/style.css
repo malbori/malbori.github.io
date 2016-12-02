@@ -5,7 +5,7 @@ body {
 }
 
 .text-muted {
-    color: #7d97ad;
+    color: #666666;
 }
 
 .text-thin {
@@ -20,6 +20,10 @@ body {
     margin-top: 20px;
 }
 
+.modal_desc {
+    margin-top: 10px;
+}
+
 hr {
     height: 2px;
     background-color: #333;
@@ -32,6 +36,7 @@ img {
 a {
     margin: 0 0 10px;
 }
+
 
 /* Media Quiries for portfolio aka Break points */
 
