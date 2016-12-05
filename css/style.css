@@ -33,6 +33,12 @@ img {
     border: 2px solid #333;
 }
 
+#pic:hover {
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
+    opacity: .7;
+}
+
 a {
     margin: 0 0 10px;
 }
